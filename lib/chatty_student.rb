@@ -6,7 +6,8 @@ class ChattyStudent < Student
   end 
   
   def rasie_hand
-    10.times{super}
+    super
+    10.times
   end 
     
 end 
